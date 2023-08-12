@@ -1,9 +1,24 @@
+// {
+//   "versions": [
+//     {
+//     "grantType": "client_credentials",
+//     "clientId": "74c4a15b-c9f0-47ec-957c-4b1d46588401",
+//     "clientSecret": "9ef73ea7f4f0c3d715352536b8fa7b3b"
+//     }
+//   ],
+// }
+
 {
-  "versions": [
-    {
-    "grantType": "client_credentials",
-    "clientId": "74c4a15b-c9f0-47ec-957c-4b1d46588401",
-    "clientSecret": "9ef73ea7f4f0c3d715352536b8fa7b3b"
-    }
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
   ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
